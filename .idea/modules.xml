@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lamda.iml" filepath="$PROJECT_DIR$/Lamda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NgalamDarurat.iml" filepath="$PROJECT_DIR$/NgalamDarurat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
