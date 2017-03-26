@@ -16,9 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
-        <activity android:name=".tombol1" />
         <activity android:name=".Angkot" />
         <activity android:name=".Taksi" />
+        <activity android:name=".MyIntro"></activity>
     </application>
 
 </manifest>
