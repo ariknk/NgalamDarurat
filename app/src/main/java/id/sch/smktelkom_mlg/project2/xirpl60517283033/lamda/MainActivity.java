@@ -30,11 +30,20 @@ public class MainActivity extends AppCompatActivity {
 
         thread.start();
 
-        findViewById(R.id.arikkkk).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.taksi).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Menu.class));
+                Intent intent = new Intent(MainActivity.this, Taksi.class);
+                MainActivity.this.startActivity(intent);
+            }
+        });
 
+
+        findViewById(R.id.angkot).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Angkot.class);
+                MainActivity.this.startActivity(intent);
             }
         });
     }
