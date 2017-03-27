@@ -12,51 +12,54 @@
     tools:context="id.sch.smktelkom_mlg.project2.xirpl60517283033.lamda.Taksi">
 
     <ImageButton
-        android:id="@+id/argo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/argo" />
-
-    <ImageButton
-        android:id="@+id/bima"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/bima" />
-
-    <ImageButton
         android:id="@+id/citra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/argo"
-        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/argo"
+        android:layout_marginBottom="104dp"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:layout_marginTop="13dp"
         android:src="@drawable/citra" />
 
     <ImageButton
         android:id="@+id/manda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="false"
-        android:layout_below="@+id/bima"
-        android:layout_marginBottom="5dp"
+        android:layout_alignStart="@+id/bima"
+        android:layout_alignTop="@+id/citra"
         android:layout_marginLeft="3dp"
         android:layout_marginRight="3dp"
-        android:layout_marginTop="13dp"
         android:src="@drawable/manda" />
+
+    <ImageButton
+        android:id="@+id/bima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manda"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/bima" />
+
+    <ImageButton
+        android:id="@+id/argo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/bima"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/argo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:fontFamily="monospace"
+        android:text="Nama Taxi " />
 </RelativeLayout>
