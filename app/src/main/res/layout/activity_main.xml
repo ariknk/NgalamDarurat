@@ -17,7 +17,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/t1" />
 
     <ImageButton
@@ -26,8 +28,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/wiuwiu"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="13dp"
         android:src="@drawable/t3" />
 
     <ImageButton
@@ -36,8 +40,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/pemadam"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="18dp"
         android:src="@drawable/t5" />
 
     <ImageButton
@@ -47,7 +53,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/t2" />
 
     <ImageButton
@@ -57,8 +65,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="false"
         android:layout_below="@+id/rs"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="13dp"
         android:src="@drawable/t4" />
 
 
@@ -69,8 +79,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="false"
         android:layout_below="@+id/taksi"
-        android:layout_marginBottom="2dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="18dp"
         android:src="@drawable/t6" />
 
 
