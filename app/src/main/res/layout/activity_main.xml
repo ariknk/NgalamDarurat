@@ -11,20 +11,43 @@
     tools:context="id.sch.smktelkom_mlg.project2.xirpl60517283033.lamda.MainActivity">
 
     <ImageButton
+        android:id="@+id/wiuwiu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/t1" />
+
+    <ImageButton
         android:id="@+id/pemadam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/wiuwiu"
-        android:layout_marginTop="13dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/t3" />
+
+    <ImageButton
+        android:id="@+id/angkot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pemadam"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/t5" />
 
     <ImageButton
         android:id="@+id/rs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/wiuwiu"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
         android:src="@drawable/t2" />
 
     <ImageButton
@@ -32,33 +55,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/pemadam"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/rs"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/t4" />
 
-    <ImageButton
-        android:id="@+id/angkot"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/polisi"
-        android:src="@drawable/t5" />
-
-    <ImageButton
-        android:id="@+id/wiuwiu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="31dp"
-        android:src="@drawable/t1" />
 
     <ImageButton
         android:id="@+id/polisi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="7dp"
+        android:layout_alignParentTop="false"
+        android:layout_below="@+id/taksi"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
         android:src="@drawable/t6" />
 
 

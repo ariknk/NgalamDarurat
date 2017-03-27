@@ -15,10 +15,25 @@ public class MyIntro extends AppIntro {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addSlide(AppIntroFragment.newInstance("Lamda", "Announcement", R.drawable.ic_announcement_black_24dp,
+        addSlide(AppIntroFragment.newInstance("Lamda", "Aplikasi penting dan sangat dibutuhkan saat ada di Malang", R.drawable.ic_favorite_black_24dp,
                 Color.parseColor("#51e2b7")));
 
-        addSlide(AppIntroFragment.newInstance("Lamda", "Semangat", R.drawable.ic_favorite_black_24dp,
+        addSlide(AppIntroFragment.newInstance("Ambulance", "Tekan icon untuk mendapakan nomor ambulance yang bisa dihubungi di Malang", R.drawable.t1,
+                Color.parseColor("#51e2b7")));
+
+        addSlide(AppIntroFragment.newInstance("Rumah Sakit", "Tekan icon untuk mendapakan nomor rumah sakit yang bisa dihubungi di Malang", R.drawable.t2,
+                Color.parseColor("#8c50e3")));
+
+        addSlide(AppIntroFragment.newInstance("Pemadam Kebakaran", "Tekan icon untuk mendapakan nomor pemadam kebakaran yang bisa dihubungi di Malang", R.drawable.t3,
+                Color.parseColor("#8c50e3")));
+
+        addSlide(AppIntroFragment.newInstance("Taxi", "Tekan icon untuk mendapakan nomor taxi yang bisa dihubungi di Malang", R.drawable.t4,
+                Color.parseColor("#8c50e3")));
+
+        addSlide(AppIntroFragment.newInstance("Angkot", "Tekan icon untuk mendapakan jalur angkot yang ada di Malang", R.drawable.t5,
+                Color.parseColor("#8c50e3")));
+
+        addSlide(AppIntroFragment.newInstance("Polisi", "Tekan icon untuk mendapakan nomor kantor polisi yang bisa dihubungi di Malang", R.drawable.t6,
                 Color.parseColor("#8c50e3")));
 
         showStatusBar(false);
