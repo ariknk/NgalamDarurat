@@ -15,7 +15,7 @@ public class MyIntro extends AppIntro {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addSlide(AppIntroFragment.newInstance("Lamda", "Aplikasi penting dan sangat dibutuhkan saat ada di Malang", R.drawable.ic_favorite_black_24dp,
+        addSlide(AppIntroFragment.newInstance("Lamda", "Aplikasi penting dan sangat dibutuhkan saat ada di Malang", R.drawable.logooo,
                 Color.parseColor("#51e2b7")));
 
         addSlide(AppIntroFragment.newInstance("Ambulance", "Tekan icon untuk mendapakan nomor ambulance yang bisa dihubungi di Malang", R.drawable.t1,
