@@ -61,5 +61,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
         android:fontFamily="monospace"
-        android:text="Nama Taxi " />
+        android:text="Nama Taxi "
+        android:textSize="36dp" />
 </RelativeLayout>
